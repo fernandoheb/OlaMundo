@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Template Olá Mundo</title>
+
+<meta  charset="UTF-8"> 
+<!-- Jquery -->
+<script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"
+	href="/webjars/bootstrap/css/bootstrap.min.css" />
+<script type="text/javascript"
+	src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- fontawesome -->
+<link rel="stylesheet" href="/webjars/font-awesome/5.14.0/css/all.css"></link>
+
+
+<!-- Customizada -->
+<link rel="stylesheet" type="text/css" href="/css/main.css"></link>
+
+</head>
+<body>
+	<div class="container">
+		<div class="corpo">
+			<h1 th:text="'Olá '+${name}"></h1>		
+			<p th:text="'Você rolou um dado de ' +${dice}+' faces'" />
+			<p th:text="'O valor da rolagem foi:' +${roll}" />	
+		</div>
+	</div>
+</body>
+
+</html>

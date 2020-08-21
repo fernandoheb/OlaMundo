@@ -1,0 +1,9 @@
+h1 { color:blue }
+i { color:black }
+
+.cabecalho{text-align:center;}
+.corpo{text-align:center;}
+
+.figura.destaque {margin:auto;
+				  width:40%;	}
+
